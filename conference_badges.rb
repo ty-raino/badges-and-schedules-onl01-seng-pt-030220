@@ -34,4 +34,12 @@ rooms
 end
 
 def printer(speakers)
+badge_messages = batch_badge_creator(attendees)
+badge_messages.each do |message|
+  puts message
+end
+room_messages = assign_rooms(room_assignments)
+room_messages.each do |message|
+  puts message
+end
 end
