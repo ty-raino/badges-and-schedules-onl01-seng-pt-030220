@@ -29,3 +29,4 @@ def assign_rooms(room)
     attendees << "Hello, #{attendee}! You'll be assigned to room #{room}!"
 end
 attendees
+end
