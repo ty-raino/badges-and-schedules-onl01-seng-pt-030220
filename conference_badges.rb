@@ -40,6 +40,6 @@ badge_messages.each do |message|
 end
 room_messages = assign_rooms(room_assignments)
 room_messages.each do |message|
-  puts messages
+  puts message
 end
 end
