@@ -11,14 +11,14 @@
 
 
 
-def badge_maker(names)
+def badge_maker(name)
  "Hello, my name is #{names}."
 end
 
-def batch_badge_creator(attendees)
-  new_array = []
-  attendees.each do |attendee|
-    message = badge_maker(name)
+def batch_badge_creator(speakers)
+  badge_messages = []
+  speakers.each do |speaker|
+    message = badge_maker(speaker)
     new_array << message
   end
   new_array
