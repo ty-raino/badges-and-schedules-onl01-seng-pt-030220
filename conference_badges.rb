@@ -34,3 +34,4 @@ rooms
 end
 
 def printer(speakers)
+end
