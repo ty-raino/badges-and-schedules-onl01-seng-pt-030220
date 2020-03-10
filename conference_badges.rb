@@ -28,5 +28,5 @@ def assign_rooms(room_assignments)
   room_assignments.each_with_index do |attendee, room|
     attendees << "Hello, #{attendee}! You'll be assigned to room #{room}!"
 end
-attendees
+attendees[1]
 end
