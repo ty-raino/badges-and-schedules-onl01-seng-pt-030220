@@ -39,7 +39,7 @@ badge_messages.each do |message|
   puts message
 end
 room_messages = assign_rooms(room_assignments)
-room_messages.each do |messages|
+room_messages.each do |message|
   puts messages
 end
 end
